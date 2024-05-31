@@ -25,9 +25,9 @@ public class task1 {
     }
     public static void  fillArray(int[] coefficients) {
         Random rnd = new Random();
-        while (coefficients[0] == 0) coefficients[0] = rnd.nextInt(101);
+        while (coefficients[0] == 0) coefficients[0] = rnd.nextInt(201)-100;
         for (int i = 1; i < coefficients.length; i++) {
-            coefficients[i] = rnd.nextInt(101);
+            coefficients[i] = rnd.nextInt(201)-100;
         }
     }
 
@@ -36,12 +36,14 @@ public class task1 {
         for (int i = 0, pow = coefficients.length-1; 
                         i < coefficients.length; i++, pow--) {
             if (coefficients[i] == 0) continue;
-
+            
+            if (i == 0 && coefficients[i] < 0) str.append(" - ");
             if (i > 0) 
             {
                 if (coefficients[i] > 0) str.append(" + ");
                 else str.append(" - ");
             }
+            
             int coef = Math.abs(coefficients[i]);
             if (coef != 1){
                 str.append(coef);
