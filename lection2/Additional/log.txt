@@ -1,4 +1,28 @@
-сент. 28, 1990 1:21:04 AM Lesson_02.Ex005_Logger main
-WARNING: Тестовое логирование 1
-сент. 28, 1990 1:21:04 AM Lesson_02.Ex005_Logger main
-INFO: Тестовое логирование 2
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-06T16:56:26.008541Z</date>
+  <millis>1717692986008</millis>
+  <nanos>541000</nanos>
+  <sequence>0</sequence>
+  <logger>Ex005_Logger</logger>
+  <level>WARNING</level>
+  <class>Ex005_Logger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование 1</message>
+</record>
+<record>
+  <date>2024-06-06T16:56:26.025113Z</date>
+  <millis>1717692986025</millis>
+  <nanos>113000</nanos>
+  <sequence>1</sequence>
+  <logger>Ex005_Logger</logger>
+  <level>INFO</level>
+  <class>Ex005_Logger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование 2</message>
+</record>
+</log>

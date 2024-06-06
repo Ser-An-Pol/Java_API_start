@@ -1,6 +1,6 @@
-package Lesson_02;
+
 public class Ex001_stringsDemo {
-    public static void main_(String[] args) {
+    public static void main(String[] args) {
         String[] name = { "C", "е", "р", "г", "е", "й" };
         String sk = "СЕРГЕЙ КА.";
         System.out.println(sk.toLowerCase()); // сергей ка.
