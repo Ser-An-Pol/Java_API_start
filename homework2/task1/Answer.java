@@ -1,4 +1,4 @@
-package homework2.task1;
+
 
 //PARAMS = {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
 
